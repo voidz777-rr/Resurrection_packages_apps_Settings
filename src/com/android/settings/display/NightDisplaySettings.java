@@ -20,6 +20,7 @@ import android.app.Dialog;
 import android.app.TimePickerDialog;
 import android.content.Context;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.v7.preference.DropDownPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.TwoStatePreference;
@@ -47,6 +48,7 @@ public class NightDisplaySettings extends SettingsPreferenceFragment
     private static final String KEY_NIGHT_DISPLAY_END_TIME = "night_display_end_time";
     private static final String KEY_NIGHT_DISPLAY_ACTIVATED = "night_display_activated";
     private static final String KEY_NIGHT_DISPLAY_TEMPERATURE = "night_display_temperature";
+    private static final String QS_NIGHT_BRIGHTNESS_VALUE = "qs_night_brightness_value";
 
     private static final int DIALOG_START_TIME = 0;
     private static final int DIALOG_END_TIME = 1;
@@ -59,6 +61,7 @@ public class NightDisplaySettings extends SettingsPreferenceFragment
     private Preference mEndTimePreference;
     private TwoStatePreference mActivatedPreference;
     private SeekBarPreference mTemperaturePreference;
+    private DropDownPreference mNightBrightValue;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -72,6 +75,13 @@ public class NightDisplaySettings extends SettingsPreferenceFragment
 
         mTemperaturePreference.setMax(convertTemperature(mController.getMinimumColorTemperature()));
         mTemperaturePreference.setContinuousUpdates(true);
+        mNightBrightValue = (DropDownPreference) findPreference(QS_NIGHT_BRIGHTNESS_VALUE);
+
+        int nightBrightValue = Settings.Secure.getInt(getContentResolver(),
+                Settings.Secure.QS_NIGHT_BRIGHTNESS_VALUE, 0);
+        mNightBrightValue.setValue(Integer.toString(nightBrightValue));
+        mNightBrightValue.setSummary(mNightBrightValue.getEntry());
+        mNightBrightValue.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -239,6 +249,13 @@ public class NightDisplaySettings extends SettingsPreferenceFragment
             return mController.setActivated((Boolean) newValue);
         } else if (preference == mTemperaturePreference) {
             return mController.setColorTemperature(convertTemperature((Integer) newValue));
+        } else if (preference == mNightBrightValue) {
+            int nightBrightValue = Integer.valueOf((String) newValue);
+            int index = mNightBrightValue.findIndexOfValue((String) newValue);
+            mNightBrightValue.setSummary(mNightBrightValue.getEntries()[index]);
+            Settings.Secure.putInt(getActivity().getContentResolver(),
+                    Settings.Secure.QS_NIGHT_BRIGHTNESS_VALUE, nightBrightValue);
+            return true;
         }
         return false;
     }
