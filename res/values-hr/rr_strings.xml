@@ -47,6 +47,7 @@
   <string name="battery_style_dotted_circle">Točkasti krug</string>
   <string name="battery_style_big_circle">Veliki krug</string>
   <string name="battery_style_big_dotted_circle">Veliki točkasti krug</string>
+  <string name="battery_style_square">Kvadrat</string>
   <string name="battery_style_text">Tekst</string>
   <string name="battery_style_hidden">Skriveno</string>
   <string name="battery_style_category">Stil baterije</string>
@@ -111,6 +112,10 @@
   <string name="rr_facebook_summary">Facebook zajednica</string>
   <string name="rr_google_plus_title">Google</string>
   <string name="rr_google_plus_summary">Google+ zajednica</string>
+  <string name="rr_pb_title">Tamno crna tema</string>
+  <string name="rr_pb_summary">Službena substratum tema za Resurrection Remix OS</string>
+  <string name="rr_twitter_title">Twitter</string>
+  <string name="rr_twitter_summary">Twitter račun</string>
   <string name="maintainer_categorie_title">Službeni uređaji</string>
   <string name="title_about">O</string>
   <string name="dev_categorie_title">Oznaka programera</string>
@@ -279,6 +284,9 @@
   <string name="ticker_disabled">Nema tickera</string>
   <string name="ticker_enabled">Ticker obavijesti</string>
   <string name="ticker_media_enabled">Ticker obavijesti i glazbe</string>
+  <string name="ticker_animation_mode_title">Stil animacije tickera</string>
+  <string name="ticker_animation_mode_alpha_fade">Blijeđenje</string>
+  <string name="ticker_animation_mode_scroll">Pomicanje</string>
   <!-- Heads up -->
   <string name="heads_up_title">Omogući plutajuće obavijesti</string>
   <string name="heads_up_summary_enabled">Plutajuće su obavijesti omogućene</string>
@@ -484,6 +492,8 @@
   <string name="qs_rows_landscape_title">Redci pločica u pejzažu</string>
   <string name="qs_columns_portrait_title">Stupci pločica u portretu</string>
   <string name="qs_columns_landscape_title">Stupci pločica u pejzažu</string>
+  <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">Prozirnost pozadine ploče</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Odabir boje</string>
   <string name="press_color_to_apply">Dodirnite boju ispod za primjenu</string>
@@ -789,6 +799,17 @@
   <string name="fling_keyboard_cursors_title">Dinamična radnja kursora tipkovnice</string>
   <string name="fling_keyboard_cursors_move_summary">Kad je tipkovnica otvorena, pritisnite i držite lijevu ili desnu stranu za pomicanje pokazivača teksta ulijevo ili udesno.\nNastavite držati da biste nastavili micati pokazivač. Dodirnite samo jednom na traku za početni zaslon.</string>
   <string name="fling_logo_opacity_title">Prozirnost Fling loga</string>
+  <string name="fling_factory_reset_title">Vrati na zadano</string>
+  <string name="fling_factory_reset_confirm">Jeste li sigurni da želite vratiti Fling na zadane postavke?</string>
+  <string name="fling_backup_current_config_title">Spremi profil</string>
+  <string name="fling_restore_config_title">Vrati profil</string>
+  <string name="fling_config_name_edit_dialog_title">Naziv Fling profila</string>
+  <string name="fling_config_name_edit_dialog_message">Unesite ime ili ostavite prazno</string>
+  <string name="fling_config_dialog_title">Fling profili</string>
+  <string name="fling_config_backup_success_toast">Fling profil je uspješno spremljen</string>
+  <string name="fling_config_restore_success_toast">Fling profil je uspješno vraćen</string>
+  <string name="fling_config_backup_error_toast">Greška pri spremanju Fling profila</string>
+  <string name="fling_config_restore_error_toast">Greška pri vraćanju Fling profila</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Puls ne radi s nekim izvorima zvuka kad reproducirate glazbu na zvučnike uređaja</string>
   <string name="pulse_settings">Puls</string>
@@ -814,6 +835,10 @@
   <string name="pulse_custom_buttons_opacity_title">Neprozirnost gumba pametne trake za Puls</string>
   <string name="pulse_auto_color_title">Automatska boja Pulsa</string>
   <string name="pulse_auto_color_summary">Sinkronizacija boje sa slikom albuma. Nadjačava lava lampu i neprozirnost linija.</string>
+  <string name="fling_lavalamp_color_from">Boja početka lava lampe</string>
+  <string name="fling_lavalamp_color_to">Boja završetka lava lampe</string>
+  <string name="pulse_colors_reset_title">Poništi boje pulsa</string>
+  <string name="pulse_colors_reset_message">Jeste li sigurni da želite vratiti ove boje na zadane?</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Širina trake</string>
   <string name="pulse_custom_div">Razmak trake</string>
@@ -1027,7 +1052,7 @@
   <string name="immersive_recents_statusbar">Samo statusna traka</string>
   <string name="immersive_recents_navbar">Samo navigacijska traka</string>
   <string name="recents_icon_pack_title">Paket ikona za zaslon nedavnih aplikacija</string>
-  <string name="recents_icon_pack_summary">Odaberite stil ikona aplikacija u prikazu nedavnim aplikacijama s pomoću paketa ikona na telefonu.</string>
+  <string name="recents_icon_pack_summary">Odaberite stil ikona aplikacija u prikazu nedavnih aplikacija s pomoću paketa ikona na telefonu.</string>
   <string name="show_4g_title">Prikaži 4G</string>
   <string name="show_4g_summary">Prikazuje 4G umjesto LTE pokraj ikone signala.</string>
   <!-- Circle app bar -->
@@ -1118,6 +1143,9 @@
   <string name="force_ambient_for_media_on">Omogućeno</string>
   <string name="force_ambient_for_media_on_forced">Omogućeno i prisiljeno</string>
   <string name="force_ambient_for_media_on_forced_clean">Omogućeno i minimalno prisiljeno</string>
+  <!-- Ambient display battery percentage -->
+  <string name="ambient_battery_percent_title">Postotak baterije na ambijentalnom zaslonu</string>
+  <string name="ambient_battery_percent_summary">Omogućite prikaz postotka baterije na ambijentalnom zaslonu</string>
   <!-- Scrolling Cache -->
   <string name="pref_scrollingcache_title">Predmemorija pomicanja</string>
   <string name="pref_scrollingcache_summary">Predmemorija pomicanja može poboljšati izvedbe pomicanja na trošak memorije.</string>
@@ -1250,7 +1278,7 @@
   <string name="shortcuts_icon_picker_play">Reproduciraj</string>
   <string name="shortcuts_icon_picker_pocket">Džep</string>
   <string name="shortcuts_icon_picker_quicksettings">Brze postavke</string>
-  <string name="shortcuts_icon_picker_rss">RSS izvor</string>
+  <string name="shortcuts_icon_picker_rss">RSS feed</string>
   <string name="shortcuts_icon_picker_sdcard">SD kartica</string>
   <string name="shortcuts_icon_picker_search">Pretraživanje</string>
   <string name="shortcuts_icon_picker_sms">Poruke</string>
@@ -1726,6 +1754,9 @@
   <string name="screenshot_options_category">Opcije snimke zaslona</string>
   <string name="screenshot_options_summary">Prilagodite svojstva snimke zaslona poput vremena, kašnjenja, vrste, itd.</string>
   <string name="screenshot_delay_title">Kašnjenje snimke zaslona</string>
+  <string name="screenshot_edit_app">Uređivanje snimke zaslona</string>
+  <string name="screenshot_edit_app_summary">Odaberite koja će se aplikacija pokrenuti pri dodiru gumba za uređivanje snimke zaslona</string>
+  <string name="screenshot_edit_app_no_editor">Nema dostupnog uređivača slika</string>
   <!-- Face unlock auto -->
   <string name="face_auto_unlock_title">Automatsko otključavanje licem</string>
   <string name="face_auto_unlock_summary">Zaključani zaslon odbacit će se nakon otključavanja licem. Za ovo morate prvo omogućiti otključavanje licem/pouzdano lice.</string>
@@ -1738,4 +1769,55 @@
   <!-- Notification guts kill app button -->
   <string name="notification_guts_kill_app_button_title">Gumb za zatvaranje aplikacija</string>
   <string name="notification_guts_kill_app_button_summary">Prikazuje gumb za zatvaranje aplikacije u izborniku pri dugom pritisku obavijesti</string>
+  <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Pametni pikseli</string>
+  <string name="smart_pixels_summary">Uštedite bateriju gašenjem nepotrebnih piksela</string>
+  <string name="smart_pixels_enable_title">Omogući pametne piksele</string>
+  <string name="smart_pixels_enable_summary">Isključite piksele da smanjite potrošnju baterije</string>
+  <string name="smart_pixels_on_power_save_title">Automatski omogući s uštedom baterije</string>
+  <string name="smart_pixels_on_power_save_summary">Omogućite pametne piksele uključivanjem uštede baterije</string>
+  <string name="smart_pixels_percent">Postotak piksela za onemogućavanje</string>
+  <string name="smart_pixels_shift">Spriječite izgaranje (burn-in) promjenom piksela svakih</string>
+  <!-- QS footer icons -->
+  <string name="qs_footer_services_title">Prikaži ikonu pokrenutih usluga</string>
+  <string name="qs_footer_services_summary">Prikaz ikone za pokrenute usluge u podnožju brzih postavki</string>
+  <string name="qs_footer_settings_title">Prikaži ikonu postavki</string>
+  <string name="qs_footer_settings_summary">Prikaz ikone postavki u podnožju brzih postavki</string>
+  <!-- Recents Grid -->
+  <string name="recents_grid_title">Nedavne aplikacije u mreži</string>
+  <string name="recents_grid_summary">Prikaz nedavnih aplikacija u stilu mreže</string>
+  <!-- Recents Lock Icon -->
+  <string name="recents_lock_title">Zaključavanje nedavnih aplikacija</string>
+  <string name="recents_lock_summary">Prikaz ikone za zaključavanje u zaglavlju nedavnih aplikacija</string>
+  <!-- Tiles animation style  -->
+  <string name="qs_tiles">Pločice brzih postavki</string>
+  <string name="qs_tile_animation_style_title">Stil animacije</string>
+  <string name="qs_tile_animation_duration_title">Trajanje animacije</string>
+  <string name="qs_tile_animation_interpolator_title">Interpolator animacije pločica</string>
+  <string name="qs_tile_animation_style_off">Nema animacije</string>
+  <string name="qs_tile_animation_style_flip">Vrtenje</string>
+  <string name="qs_tile_animation_style_rotate">Okretanje</string>
+  <string name="qs_tile_animation_duration_low">Sporo</string>
+  <string name="qs_tile_animation_duration_default">Zadano</string>
+  <string name="qs_tile_animation_duration_fast">Brzo</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">Linearno</string>
+  <string name="qs_tile_animation_interpolator_accelerateInterpolator">Ubrzavanje</string>
+  <string name="qs_tile_animation_interpolator_decelerateInterpolator">Usporavanje</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Ubrzavanje i usporavanje</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">Poskakivanje</string>
+  <string name="qs_tile_animation_interpolator_overshootInterpolator">Prelijetanje</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Predviđanje</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Predviđanje i prelijetanje</string>
+  <string name="qs_set_animation_style">%1$s</string>
+  <string name="qs_set_animation_duration">%1$s</string>
+  <string name="qs_set_animation_interpolator">%1$s</string>
+  <!-- Running services -->
+  <string name="background_processes_settings_title">Pozadinski procesi</string>
+  <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Prisilno autoriziraj svaku aplikaciju za teme</string>
+  <string name="force_authorize_substratum_packages_summary">Omogućite aplikacije za teme iz nepoznatih izvora</string>
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum slojevi</string>
+  <string name="menu_show_substratum">Prikaži slojeve</string>
+  <string name="menu_hide_substratum">Sakrij slojeve</string>
 </resources>

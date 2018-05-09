@@ -35,18 +35,19 @@
   <string name="about_rr_settings">Acerca de</string>
   <string name="about_rr">Acerca de</string>
   <string name="about_rr_summary">\@null</string>
-  <string name="about_r0m_summary">Todo sobre el OS Resurrection Remix</string>
+  <string name="about_r0m_summary">Todo sobre Resurrection Remix OS</string>
   <string name="rr_donate">Donar para el desarrollo</string>
   <string name="rr_donate_summary">Muestra tu apoyo a Resurrection Remix OS</string>
   <string name="app_name">Resurrection Remix OS</string>
   <!-- Battery Styles -->
   <string name="battery_style_title">Estilo de ícono del botón</string>
-  <string name="battery_style_port">Retratos</string>
+  <string name="battery_style_port">Vertical</string>
   <string name="battery_style_land">Horizontal</string>
   <string name="battery_style_circle">Círculo</string>
   <string name="battery_style_dotted_circle">Círculo punteado</string>
   <string name="battery_style_big_circle">Círculo grande</string>
   <string name="battery_style_big_dotted_circle">Círculo grande punteado</string>
+  <string name="battery_style_square">Cuadrado</string>
   <string name="battery_style_text">Texto</string>
   <string name="battery_style_hidden">Oculto</string>
   <string name="battery_style_category">Estilo del icono de la batería</string>
@@ -111,6 +112,10 @@
   <string name="rr_facebook_summary">Comunidad en Facebook</string>
   <string name="rr_google_plus_title">Google</string>
   <string name="rr_google_plus_summary">Comunidad de Google+</string>
+  <string name="rr_pb_title">Tema negro</string>
+  <string name="rr_pb_summary">Tema oficial de Substratum de Resurrection Remix OS</string>
+  <string name="rr_twitter_title">Twitter</string>
+  <string name="rr_twitter_summary">Cuenta de Twitter</string>
   <string name="maintainer_categorie_title">Dispositivos oficiales</string>
   <string name="title_about">Acerca de</string>
   <string name="dev_categorie_title">Etiqueta Dev</string>
@@ -280,8 +285,11 @@ https://plus.google.com/communities/109352646351468373340</string>
   <string name="ticker_disabled">Sin ticker</string>
   <string name="ticker_enabled">Ticker de notificación</string>
   <string name="ticker_media_enabled">Ticker de música y notificaciones</string>
+  <string name="ticker_animation_mode_title">Estilo de animación de Ticker</string>
+  <string name="ticker_animation_mode_alpha_fade">Desvanecer</string>
+  <string name="ticker_animation_mode_scroll">Desplazamiento</string>
   <!-- Heads up -->
-  <string name="heads_up_title">Permitir notificaciones</string>
+  <string name="heads_up_title">Permitir notificaciones emergentes</string>
   <string name="heads_up_summary_enabled">Las notificaciones emergentes están activadas</string>
   <string name="heads_up_summary_disabled">Las notificaciones emergentes están desactivadas</string>
   <string name="heads_up_blacklist_add_package_title">Añadir aplicación</string>
@@ -292,7 +300,7 @@ https://plus.google.com/communities/109352646351468373340</string>
   <string name="heads_up_blacklist_dialog_delete_message">¿Eliminar el elemento seleccionado?</string>
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibración de autenticación de huella digital</string>
-  <string name="fprint_sucess_vib_summary">Vibrar al autenticar huella con éxito</string>
+  <string name="fprint_sucess_vib_summary">Vibrar en éxito de la autenticación de huella digital</string>
   <!-- QS quick pulldown using fpc -->
   <string name="status_bar_quick_qs_pulldown_fp_title">Deslizamiento rápido usando la huella</string>
   <string name="status_bar_quick_qs_pulldown_fp_summary">En lugar de deslizar hacia abajo dos veces para ver las notificaciones, habilita esto y hágalo una única vez</string>
@@ -448,7 +456,7 @@ https://plus.google.com/communities/109352646351468373340</string>
   <string name="rr_recents_ui_summary">Personalizar los distintos elementos en el panel de recientes como Barra de memoria, recientes en pantalla completa, etc.</string>
   <string name="recents_clear_all_summary">Remplaza el botón \"borrar todo\" con el botón flotante original y personaliza su posición</string>
   <string name="omniswitch_summary">Reemplazar sección de recientes con Omni-recents</string>
-  <string name="rr_qs_animation_summary">Activar o desactivar las animaciones cuando presionas un ajuste rapido y personalizarlas</string>
+  <string name="rr_qs_animation_summary">Activar o desactivar las animaciones cuando presionas un ajuste rápido y personalizarlas</string>
   <string name="rr_qs_pulldown_summary">Ajustes del panel desplegable rápido</string>
   <string name="qs_tile_layout_summary">Personalizar diseño de ajustes rápidos</string>
   <string name="qs_advanced_summary">Personalización de ajustes rápidos misceláneos</string>
@@ -485,6 +493,8 @@ https://plus.google.com/communities/109352646351468373340</string>
   <string name="qs_rows_landscape_title">Filas en modo horizontal</string>
   <string name="qs_columns_portrait_title">Columnas en modo vertical</string>
   <string name="qs_columns_landscape_title">Columnas de iconos en modo apaisado</string>
+  <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">Transparencia de fondo de fondo</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Selector de color</string>
   <string name="press_color_to_apply">Presione en un color de abajo para aplicar</string>
@@ -503,7 +513,7 @@ https://plus.google.com/communities/109352646351468373340</string>
   <string name="header_weather_title">Tiempo en vista cabecera</string>
   <string name="header_weather_summary">Activar la pantalla del tiempo en la cabecera de notificaciones</string>
   <string name="weather_icon_pack_title">Pack de iconos de estado</string>
-  <string name="weather_icon_pack_note">La nota\u003a puede instalar nuevos pack de icónos de la Play Store buscándolos por \"Chronus icons\"</string>
+  <string name="weather_icon_pack_note">Nota\u003a puede instalar nuevos pack de icónos de la Play Store buscándolos por \"Chronus icons\"</string>
   <string name="status_bar_weather_size_title">Tamaño de la letra</string>
   <string name="status_bar_weather_font_style_title">Fuente</string>
   <string name="status_bar_weather_font_normal">Normal</string>
@@ -755,7 +765,7 @@ https://plus.google.com/communities/109352646351468373340</string>
   <string name="fling_double_left_tap">Doble toque en la izquierda</string>
   <string name="fling_long_left_press">Pulsación larga en la izquierda</string>
   <string name="long_swipe_portrait_title">Vertical</string>
-  <string name="long_swipe_landscape_title">Apaisado</string>
+  <string name="long_swipe_landscape_title">Horizontal</string>
   <string name="portrait_right_swipe_title">Deslizar a la derecha en vertical</string>
   <string name="portrait_left_swipe_title">Deslizar a la izquierda en vertical</string>
   <string name="landscape_right_swipe_title">Deslizar a la derecha en apaisado</string>
@@ -790,6 +800,17 @@ https://plus.google.com/communities/109352646351468373340</string>
   <string name="fling_keyboard_cursors_title">Acción del cursor de teclado dinámico</string>
   <string name="fling_keyboard_cursors_move_summary">Cuando se muestre el teclado, realiza una pulsación larga a la izquierda o derecha para mover el cursor de texto.\nMantén la pulsación larga para seguir moviéndolo, toca en la barra para ir a la pantalla de inicio.</string>
   <string name="fling_logo_opacity_title">Opacidad del logo de Fling</string>
+  <string name="fling_factory_reset_title">Restablecer a valores por defecto</string>
+  <string name="fling_factory_reset_confirm">¿Seguro que quieres restablecer la configuración de stock?</string>
+  <string name="fling_backup_current_config_title">Guarda el perfil</string>
+  <string name="fling_restore_config_title">Restaurar perfil</string>
+  <string name="fling_config_name_edit_dialog_title">Nombre del perfil</string>
+  <string name="fling_config_name_edit_dialog_message">Ingrese un nombre o déjelo en blanco</string>
+  <string name="fling_config_dialog_title">Perfiles de Fling</string>
+  <string name="fling_config_backup_success_toast">Perfil de guardado con éxito</string>
+  <string name="fling_config_restore_success_toast">Perfil de restaurado con éxito</string>
+  <string name="fling_config_backup_error_toast">Error al guardar el perfil</string>
+  <string name="fling_config_restore_error_toast">Error al restaurar el perfil</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Pulse no funciona con algunas fuentes de audio cuando se escucha en el altavoz del dispositivo</string>
   <string name="pulse_settings">Pulse</string>
@@ -801,7 +822,7 @@ https://plus.google.com/communities/109352646351468373340</string>
   <string name="pulse_render_mode_solid_lines">Líneas sólidas</string>
   <string name="fling_pulse_color">Color de Pulse</string>
   <string name="fling_pulse_color_summary">Usado también como retroceso para color automático</string>
-  <string name="eos_fling_lavalamp_title">Enciender la lámpara de lava</string>
+  <string name="eos_fling_lavalamp_title">Encender la lámpara de lava</string>
   <string name="eos_fling_lavalamp_summary">Pulse crea una animación con una suave mezcla de colores tipo lámpara de lava</string>
   <string name="pulse_advanced_category">Avanzada</string>
   <string name="pulse_legacy_mode_advanced_category">Ajustes del modo desvanecimiento de bloques</string>
@@ -815,6 +836,10 @@ https://plus.google.com/communities/109352646351468373340</string>
   <string name="pulse_custom_buttons_opacity_title">Opacidad de los botones en pulse</string>
   <string name="pulse_auto_color_title">Color automático de Pulse</string>
   <string name="pulse_auto_color_summary">Sincronizar color con las caratulas de los álbumes. Tapará la lámpara de lava y opacidad de líneas.</string>
+  <string name="fling_lavalamp_color_from">Color inicial de Lámpara de Lava</string>
+  <string name="fling_lavalamp_color_to">Color final de Lámpara de Lava</string>
+  <string name="pulse_colors_reset_title">Restablecer colores de \"Pulse\"</string>
+  <string name="pulse_colors_reset_message">¿Seguro que quieres reiniciar todos los colores a su valor por defecto?</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Ancho de la barra</string>
   <string name="pulse_custom_div">Espacio de la barra</string>
@@ -1119,6 +1144,9 @@ https://plus.google.com/communities/109352646351468373340</string>
   <string name="force_ambient_for_media_on">Habilitado</string>
   <string name="force_ambient_for_media_on_forced">Habilitado y obligatorio</string>
   <string name="force_ambient_for_media_on_forced_clean">Habilitado y mínimo obligatorio</string>
+  <!-- Ambient display battery percentage -->
+  <string name="ambient_battery_percent_title">Porcentaje de batería en pantalla ambiente</string>
+  <string name="ambient_battery_percent_summary">Mostrar el porcentaje de batería mientras el teléfono está en reposo</string>
   <!-- Scrolling Cache -->
   <string name="pref_scrollingcache_title">Caché de desplazamiento</string>
   <string name="pref_scrollingcache_summary">La caché de desplazamiento puede mejorar el rendimiento de desplazamiento a costa un mayor uso de memoria</string>
@@ -1294,7 +1322,7 @@ https://plus.google.com/communities/109352646351468373340</string>
   <string name="shortcut_duplicate_entry">La acción seleccionada no puede añadirse dos veces</string>
   <string name="shortcut_action_help_shortcut">acceso directo</string>
   <string name="shortcut_action_help_button">botón</string>
-  <string name="shortcut_action_help_app">app</string>
+  <string name="shortcut_action_help_app">aplicación</string>
   <string name="shortcut_action_help_icon">, mientras selecciona el icono aparecerán las opciones de personalización</string>
   <string name="shortcut_action_help_main">Para añadir un %1$s, toca el icono Añadir. Una vez añadido un %1$s, seleccionando la fila cambiará el destino%2$s\n\nPara borrar una %1$s, desliza la fila horizontalmente a la izquierda o a la derecha. Ordena una %1$s en la lista arrastrando verticalmente el marcador de la izquierda.\n\nPara restablecer a los valores predeterminados pulsa el icono Restablecer.</string>
   <string name="shortcut_action_help_delete_last_entry">Borrando cada %1$s en la lista, se deshabilitará esta característica por completo.</string>
@@ -1457,15 +1485,15 @@ https://plus.google.com/communities/109352646351468373340</string>
   <string name="logo3">Droide de error minimalista </string>
   <string name="logo4">Drupal</string>
   <string name="logo5">Sonrisa guay</string>
-  <string name="logo6">Fantasma</string>
+  <string name="logo6">Ghost</string>
   <string name="logo7">Flash</string>
   <string name="logo8">Windows</string>
   <string name="logo9">Xbox</string>
   <string name="logo10">Emoji</string>
-  <string name="logo11">Sonrisa feliz</string>
+  <string name="logo11">Happy Smile</string>
   <string name="logo12">Huella digital</string>
   <string name="logo13">Pugmark</string>
-  <string name="logo14">Búho</string>
+  <string name="logo14">Owl</string>
   <string name="logo15">Climatología desactivada </string>
   <string name="logo16">Blender</string>
   <string name="logo17">Pastel</string>
@@ -1630,7 +1658,7 @@ https://plus.google.com/communities/109352646351468373340</string>
   <!-- SystemUI restart prompt -->
   <string name="systemui_restart_title">ADVERTENCIA</string>
   <string name="systemui_restart_message">SystemUI se reiniciará para que se pueda aplicar la configuración seleccionada correctamente.</string>
-  <string name="restarting_ui">Reiniciando UI\u2026</string>
+  <string name="restarting_ui">Reiniciando la interfaz de usuario\u2026</string>
   <string name="print_restart">Reiniciar</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
@@ -1701,7 +1729,7 @@ https://plus.google.com/communities/109352646351468373340</string>
   <string name="sum19">Siga las normas de publicación de G+</string>
   <string name="sum20">Noobs no puede entrar</string>
   <string name="sum21">#gotresurrected</string>
-  <string name="sum22">Últimas noticias: Apple eliminará el flash de los próximos iPhones.</string>
+  <string name="sum22">Noticia de ultima hora: Apple eliminará el flash de los próximos iPhones.</string>
   <string name="sum23">¿Estás contento ahora?</string>
   <string name="sum24">Es suficiente, para de teclear!</string>
   <string name="sum25">#Swagger</string>
@@ -1727,6 +1755,9 @@ https://plus.google.com/communities/109352646351468373340</string>
   <string name="screenshot_options_category">Opciones de captura de pantalla</string>
   <string name="screenshot_options_summary">Personalizar opciones de captura de pantalla</string>
   <string name="screenshot_delay_title">Retraso en la captura de pantalla</string>
+  <string name="screenshot_edit_app">Editor de capturas de pantalla</string>
+  <string name="screenshot_edit_app_summary">Elige qué aplicación debe iniciarse al tocar el botón de Editar en la notificación de captura de pantalla</string>
+  <string name="screenshot_edit_app_no_editor">No hay ningún editor de imágenes disponible</string>
   <!-- Face unlock auto -->
   <string name="face_auto_unlock_title">Desbloqueo facial</string>
   <string name="face_auto_unlock_summary">Desbloquea la pantalla de bloqueo automáticamente al detectar el desbloqueo facial. Necesitas activar el desbloqueo facial/rostro de confianza para esto</string>
@@ -1739,4 +1770,47 @@ https://plus.google.com/communities/109352646351468373340</string>
   <!-- Notification guts kill app button -->
   <string name="notification_guts_kill_app_button_title">Botón de detener aplicación</string>
   <string name="notification_guts_kill_app_button_summary">Muestra un botón para detener la aplicación en el menú que aparece al realizar una pulsación larga sobre una notificación</string>
+  <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Píxeles inteligentes</string>
+  <string name="smart_pixels_summary">Ahorra batería apagando píxeles adicionales</string>
+  <string name="smart_pixels_enable_title">Habilitar píxeles inteligentes</string>
+  <string name="smart_pixels_enable_summary">Apagar píxeles para reducir el consumo de energía</string>
+  <string name="smart_pixels_on_power_save_title">Activar automáticamente junto con el ahorro de batería</string>
+  <string name="smart_pixels_on_power_save_summary">Habilitar Smart Pixels cuando el ahorro de batería está habilitado</string>
+  <string name="smart_pixels_percent">Porcentaje de píxeles a desactivar</string>
+  <string name="smart_pixels_shift">Evite quemaduras cambiando los píxeles</string>
+  <!-- QS footer icons -->
+  <string name="qs_footer_services_title">Mostrar el icono de Servicios en ejecución</string>
+  <string name="qs_footer_services_summary">Mostrar el icono de Servicios en ejecución en la configuración rápida del pie de página</string>
+  <string name="qs_footer_settings_title">Mostrar icono de configuración</string>
+  <string name="qs_footer_settings_summary">Mostrar icono de configuración en el pie de página de configuración rápida</string>
+  <!-- Recents Grid -->
+  <string name="recents_grid_summary">Muestra los recientes en un estilo de cuadrícula</string>
+  <!-- Recents Lock Icon -->
+  <!-- Tiles animation style  -->
+  <string name="qs_tile_animation_style_title">Estilo de la animación</string>
+  <string name="qs_tile_animation_duration_title">Duración de la animación</string>
+  <string name="qs_tile_animation_style_off">Sin animación</string>
+  <string name="qs_tile_animation_style_flip">Girar</string>
+  <string name="qs_tile_animation_style_rotate">Rotar</string>
+  <string name="qs_tile_animation_duration_low">Baja</string>
+  <string name="qs_tile_animation_duration_default">Por defecto</string>
+  <string name="qs_tile_animation_duration_fast">Rápida</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">Lineal</string>
+  <string name="qs_tile_animation_interpolator_accelerateInterpolator">Acelerar</string>
+  <string name="qs_tile_animation_interpolator_decelerateInterpolator">Desacelerar</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Acelerar/Desacelerar</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">Rebotar</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipar</string>
+  <string name="qs_set_animation_style">%1$s</string>
+  <string name="qs_set_animation_duration">%1$s</string>
+  <string name="qs_set_animation_interpolator">%1$s</string>
+  <!-- Running services -->
+  <string name="background_processes_settings_title">Procesos en segundo plano</string>
+  <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_summary">Permitir aplicaciones de temas de fuentes desconocidas</string>
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Capas de Substratum</string>
+  <string name="menu_show_substratum">Mostrar capas</string>
+  <string name="menu_hide_substratum">Ocultar capas</string>
 </resources>

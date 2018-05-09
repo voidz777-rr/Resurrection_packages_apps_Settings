@@ -47,6 +47,7 @@
   <string name="battery_style_dotted_circle">虚线圆圈</string>
   <string name="battery_style_big_circle">大圆圈</string>
   <string name="battery_style_big_dotted_circle">大虚线圆圈</string>
+  <string name="battery_style_square">矩形</string>
   <string name="battery_style_text">文本</string>
   <string name="battery_style_hidden">隐藏</string>
   <string name="battery_style_category">电池样式</string>
@@ -109,8 +110,12 @@
   <string name="rr_source_summary">Resurrection Remix OS 源码</string>
   <string name="rr_facebook_title">Facebook</string>
   <string name="rr_facebook_summary">Facebook 社区</string>
-  <string name="rr_google_plus_title">Google+</string>
+  <string name="rr_google_plus_title">谷歌</string>
   <string name="rr_google_plus_summary">Google+ 社区</string>
+  <string name="rr_pb_title">PitchBlack 主题</string>
+  <string name="rr_pb_summary">Resurrection Remix OS 官方主题</string>
+  <string name="rr_twitter_title">推特</string>
+  <string name="rr_twitter_summary">推特账户</string>
   <string name="maintainer_categorie_title">官方设备</string>
   <string name="title_about">关于</string>
   <string name="dev_categorie_title">开发者标签</string>
@@ -175,7 +180,7 @@
   <string name="changelog_time_3_weeks">三周前</string>
   <!--RR Configurations-->
   <string name="fab_updates">更新</string>
-  <string name="fab_restartui">重启界面</string>
+  <string name="fab_restartui">重启系统界面</string>
   <string name="fab_reset">重置</string>
   <string name="fab_about">关于 RR-OS</string>
   <string name="fab_layout">更新布局</string>
@@ -270,15 +275,18 @@
   <string name="headset_connect_player_both">当有线耳机或者蓝牙耳机接入时</string>
   <!-- Status Bar Ticker -->
   <string name="ticker_screen_title">通知提示</string>
-  <string name="ticker_title">状态栏时钟</string>
-  <string name="ticker_summary">使用旧的时钟样式</string>
+  <string name="ticker_title">状态栏通知提示</string>
+  <string name="ticker_summary">使用旧的状态栏通知提示</string>
   <string name="ticker_restore_defaults_title">恢复默认值</string>
   <string name="text_title">文本</string>
   <string name="icon_title">图标</string>
   <string name="colors_title">颜色</string>
-  <string name="ticker_disabled">隐藏通知</string>
+  <string name="ticker_disabled">没有通知</string>
   <string name="ticker_enabled">通知提示</string>
   <string name="ticker_media_enabled">通知和音乐提示</string>
+  <string name="ticker_animation_mode_title">通知提示动画样式</string>
+  <string name="ticker_animation_mode_alpha_fade">淡入淡出</string>
+  <string name="ticker_animation_mode_scroll">滚动</string>
   <!-- Heads up -->
   <string name="heads_up_title">允许浮动通知</string>
   <string name="heads_up_summary_enabled">浮动通知已启用</string>
@@ -380,7 +388,7 @@
   <!--RR statusbar logo -->
   <string name="status_bar_logo_title">品牌 Logo</string>
   <string name="status_bar_rr_logo_position">Logo 位置</string>
-  <string name="status_bar_rr_logo_position_summary">选择在左侧还是在右侧显示Logo</string>
+  <string name="status_bar_rr_logo_position_summary">选择在左侧还是在右侧显示 Logo？</string>
   <string name="status_bar_logo_right">右侧</string>
   <string name="status_bar_logo_left">左侧</string>
   <string name="status_bar_logo_disabled">已禁用</string>
@@ -484,6 +492,8 @@
   <string name="qs_rows_landscape_title">列数（横向）</string>
   <string name="qs_columns_portrait_title">列数（纵向）</string>
   <string name="qs_columns_landscape_title">列数（横向）</string>
+  <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">面板背景透明度</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">颜色选择器</string>
   <string name="press_color_to_apply">点击下面的颜色以应用</string>
@@ -589,7 +599,7 @@
   <string name="volume_dialog_timeout_title">音量调节超时</string>
   <!-- Volume dialog opacity -->
   <string name="volume_dialog_transparency_title">音量面板调整</string>
-  <string name="volume_dialog_transparency">调节音量面板透明度</string>
+  <string name="volume_dialog_transparency">音量调节菜单透明度</string>
   <string name="volume_dialog_stroke_title">音量对话框框线</string>
   <string name="volume_dialog_stroke_disabled">停用</string>
   <string name="volume_dialog_stroke_accent">主题色</string>
@@ -789,6 +799,17 @@
   <string name="fling_keyboard_cursors_title">动态键盘光标操作</string>
   <string name="fling_keyboard_cursors_move_summary">显示键盘时，长按左键或右键可将指针向左或向右移动。\n长按按键以移动指针，单击按键栏回到主屏幕。</string>
   <string name="fling_logo_opacity_title">Fling logo 不透明度</string>
+  <string name="fling_factory_reset_title">恢复默认设置</string>
+  <string name="fling_factory_reset_confirm">你确定要重置 Fling 为默认设置？</string>
+  <string name="fling_backup_current_config_title">保存配置文件</string>
+  <string name="fling_restore_config_title">恢复配置文件</string>
+  <string name="fling_config_name_edit_dialog_title">Fling 配置文件名称</string>
+  <string name="fling_config_name_edit_dialog_message">请输入名称或留空</string>
+  <string name="fling_config_dialog_title">Fling 配置文件</string>
+  <string name="fling_config_backup_success_toast">Fling 配置文件保存成功</string>
+  <string name="fling_config_restore_success_toast">Fling 配置文件还原成功</string>
+  <string name="fling_config_backup_error_toast">保存 Fling 配置文件时出错</string>
+  <string name="fling_config_restore_error_toast">恢复 Fling 配置文件时出错</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">当扬声器正在播放音频时，某些音频脉冲将不能正常工作</string>
   <string name="pulse_settings">Pulse</string>
@@ -814,6 +835,10 @@
   <string name="pulse_custom_buttons_opacity_title">开启Pulse模式后导航栏的按键不透明</string>
   <string name="pulse_auto_color_title">Pulse 自动调整颜色</string>
   <string name="pulse_auto_color_summary">与专辑封面颜色同步，会覆盖熔岩灯和线的不透明度</string>
+  <string name="fling_lavalamp_color_from">呼吸灯开始颜色</string>
+  <string name="fling_lavalamp_color_to">呼吸灯结束颜色</string>
+  <string name="pulse_colors_reset_title">重置呼吸灯颜色</string>
+  <string name="pulse_colors_reset_message">您确定重置这些颜色为默认值吗？</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">栏宽度</string>
   <string name="pulse_custom_div">栏间距</string>
@@ -874,7 +899,7 @@
   <string name="smartbar_double_tap_sleep_summary">双击导航栏的空白区域休眠</string>
   <!-- SystemUI theme -->
   <string name="systemui_theme_style_title">主题</string>
-  <string name="systemui_theme_style_auto">自动 (基于墙纸)</string>
+  <string name="systemui_theme_style_auto">自动 (基于壁纸)</string>
   <string name="systemui_theme_style_light">亮色</string>
   <string name="systemui_theme_style_dark">暗色</string>
   <string name="rr_theme_title">主题设置</string>
@@ -1027,7 +1052,7 @@
   <string name="immersive_recents_statusbar">仅状态栏</string>
   <string name="immersive_recents_navbar">仅导航栏</string>
   <string name="recents_icon_pack_title">最近任务图标包</string>
-  <string name="recents_icon_pack_summary">在最近任务中，应用的图标可以从你手机中所包含的图标包选择</string>
+  <string name="recents_icon_pack_summary">在最近任务视图中，使用手机中包含的图标包选择您的应用程序图标样式</string>
   <string name="show_4g_title">显示 4G</string>
   <string name="show_4g_summary">使用 4G 图标以替换 LTE 图标</string>
   <!-- Circle app bar -->
@@ -1118,6 +1143,9 @@
   <string name="force_ambient_for_media_on">已启用</string>
   <string name="force_ambient_for_media_on_forced">强制并启用</string>
   <string name="force_ambient_for_media_on_forced_clean">强制并启用最小化</string>
+  <!-- Ambient display battery percentage -->
+  <string name="ambient_battery_percent_title">主动显示电池百分比</string>
+  <string name="ambient_battery_percent_summary">当处于打盹模式时显示电池百分比</string>
   <!-- Scrolling Cache -->
   <string name="pref_scrollingcache_title">滚动缓存</string>
   <string name="pref_scrollingcache_summary">滚动缓存可以提高滚动性能，但消耗更多内存。</string>
@@ -1342,7 +1370,7 @@
   <string name="flipboard">Flipboard</string>
   <string name="foursquare">Foursquare</string>
   <string name="firefox">Firefox</string>
-  <string name="googlebuzz">Google buzz</string>
+  <string name="googlebuzz">谷歌 buzz</string>
   <string name="googledocs">Google 文档</string>
   <string name="googlewallet">Google 钱包</string>
   <string name="line">LINE</string>
@@ -1351,10 +1379,10 @@
   <string name="rootexplorer">Root explorer</string>
   <string name="sim">SIM 卡</string>
   <string name="teamviewer">Teamviewer</string>
-  <string name="totalcommander">Total commander</string>
+  <string name="totalcommander">总指挥官</string>
   <string name="weather">天气</string>
   <string name="golocker">Go 锁屏</string>
-  <string name="googlecurrents">Google currents</string>
+  <string name="googlecurrents">谷歌潮流</string>
   <string name="googletalk">Google Talk</string>
   <string name="gosms">Go 短信</string>
   <string name="meebo">Meebo</string>
@@ -1398,8 +1426,8 @@
   <string name="skype">Skype</string>
   <string name="soundscloud">SoundsCloud</string>
   <string name="spotifiy">Spotifiy</string>
-  <string name="tapatalk">Tapatalk</string>
-  <string name="tunein">Tunein</string>
+  <string name="tapatalk">论坛助手</string>
+  <string name="tunein">走调</string>
   <string name="twitter">Twitter</string>
   <string name="viber">Viber</string>
   <string name="videocamera">视频摄像机</string>
@@ -1563,7 +1591,7 @@
   <string name="button20">存档 </string>
   <string name="button21">数据库 +</string>
   <string name="button22">指向里的箭头</string>
-  <string name="button23">Google</string>
+  <string name="button23">谷歌</string>
   <string name="button24">数据库 -</string>
   <string name="button25">重叠的方块</string>
   <string name="button26">定时器</string>
@@ -1726,6 +1754,9 @@
   <string name="screenshot_options_category">屏幕截图选项</string>
   <string name="screenshot_options_summary">自定义屏幕截图的属性，如时间、延迟、类型等</string>
   <string name="screenshot_delay_title">屏幕截图延迟</string>
+  <string name="screenshot_edit_app">截图编辑器</string>
+  <string name="screenshot_edit_app_summary">选择点击屏幕截图通知的编辑按键后打开的应用程序</string>
+  <string name="screenshot_edit_app_no_editor">无可用图像编辑器</string>
   <!-- Face unlock auto -->
   <string name="face_auto_unlock_title">面部自动解锁</string>
   <string name="face_auto_unlock_summary">解除脸部锁定后关闭锁定画面。您需要为此启用脸部解锁/可信脸部</string>
@@ -1738,4 +1769,37 @@
   <!-- Notification guts kill app button -->
   <string name="notification_guts_kill_app_button_title">强制关闭应用按钮</string>
   <string name="notification_guts_kill_app_button_summary">在通知长按菜单中显示强制关闭应用按钮</string>
+  <!-- Smart Pixels -->
+  <string name="smart_pixels_title">智能像素</string>
+  <string name="smart_pixels_summary">通过关闭额外的像素来节省电量</string>
+  <string name="smart_pixels_enable_title">启用智能像素</string>
+  <string name="smart_pixels_enable_summary">减少像素以降低功耗</string>
+  <string name="smart_pixels_on_power_save_title">省电模式时自动启用</string>
+  <string name="smart_pixels_on_power_save_summary">开启省电模式时自动启用智能像素</string>
+  <string name="smart_pixels_percent">禁用的像素数量</string>
+  <string name="smart_pixels_shift">通过每次移动像素来防止烧屏</string>
+  <!-- QS footer icons -->
+  <string name="qs_footer_services_title">显示运行中的服务图标</string>
+  <string name="qs_footer_services_summary">在快速设置页脚显示运行中的服务图标</string>
+  <string name="qs_footer_settings_title">显示设置图标</string>
+  <string name="qs_footer_settings_summary">在快速设置页脚显示设置图标</string>
+  <!-- Recents Grid -->
+  <!-- Recents Lock Icon -->
+  <!-- Tiles animation style  -->
+  <string name="qs_tiles">快速设置瓷块</string>
+  <string name="qs_tile_animation_style_title">动画风格</string>
+  <string name="qs_tile_animation_duration_title">动画时长</string>
+  <string name="qs_tile_animation_style_off">无动画</string>
+  <string name="qs_set_animation_style">%1$s</string>
+  <string name="qs_set_animation_duration">%1$s</string>
+  <string name="qs_set_animation_interpolator">%1$s</string>
+  <!-- Running services -->
+  <string name="background_processes_settings_title">后台进程</string>
+  <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">强制授权所有主题应用</string>
+  <string name="force_authorize_substratum_packages_summary">允许安装未知来源的主题应用</string>
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum 叠加层</string>
+  <string name="menu_show_substratum">显示叠加层</string>
+  <string name="menu_hide_substratum">隐藏叠加层</string>
 </resources>

@@ -116,7 +116,7 @@
 
   <string name="device_peregrine" translatable="false">Moto G LTE</string>
   <string name="device_peregrine_codename" translatable="false">Peregrine</string>
-  <string name="device_peregrine_maintainer" translatable="false">Hasan Okarci</string>
+  <string name="device_peregrine_maintainer" translatable="false"></string>
 
   <string name="device_merlin" translatable="false">Moto G Turbo Edition</string>
   <string name="device_merlin_codename" translatable="false">Merlin</string>
@@ -252,7 +252,7 @@
 
   <string name="device_trltexx" translatable="false">Galaxy Note 4 int Snapdragon</string>
   <string name="device_trltexx_codename" translatable="false">N910F</string>
-  <string name="device_trltexx_maintainer" translatable="false">Mobspyguy</string>
+  <string name="device_trltexx_maintainer" translatable="false">mobspyguy</string>
 
   <string name="device_treltexx" translatable="false">Galaxy Note 4 Exynos</string>
   <string name="device_treltexx_codename" translatable="false">N910C/H</string>
@@ -274,6 +274,14 @@
   <string name="device_hero2lte_codename" translatable="false">SM-G935F/FD/W8/S/K/L</string>
   <string name="device_hero2lte_maintainer" translatable="false">Ivan Meler</string>
 
+  <string name="device_zerofltexx" translatable="false">Galaxy S6</string>
+  <string name="device_zerofltexx_codename" translatable="false">SM-G920F/I/S/K/L</string>
+  <string name="device_zerofltexx_maintainer" translatable="false">Enes Uzun</string>
+
+  <string name="device_zeroltexx" translatable="false">Galaxy S6 Edge</string>
+  <string name="device_zeroltexx_codename" translatable="false">SM-G925F/I/S/K/L</string>
+  <string name="device_zeroltexx_maintainer" translatable="false">Enes Uzun</string>
+
   <string name="device_dreamlte" translatable="false">Galaxy S8</string>
   <string name="device_dreamlte_codename" translatable="false">SM-G950F/FD/N</string>
   <string name="device_dreamlte_maintainer" translatable="false">Vaughn</string>
@@ -281,6 +289,10 @@
   <string name="device_dream2lte" translatable="false">Galaxy S8+</string>
   <string name="device_dream2lte_codename" translatable="false">SM-G955F/FD/N</string>
   <string name="device_dream2lte_maintainer" translatable="false">Fevax</string>
+
+  <string name="device_starlte" translatable="false">Galaxy S9</string>
+  <string name="device_starlte_codename" translatable="false">SM-G960F/FD/N</string>
+  <string name="device_starlte_maintainer" translatable="false">msdx321</string>
 
   <string name="device_fortuna3g" translatable="false">Galaxy Grand Prime</string>
   <string name="device_fortuna3g_codename" translatable="false">SM-G530H</string>
@@ -301,6 +313,14 @@
   <string name="device_j5ltexx" translatable="false">Galaxy J5</string>
   <string name="device_j5ltexx_codename" translatable="false">SM-J500F/FN/M/G/Y/H</string>
   <string name="device_j5ltexx_maintainer" translatable="false">Dyneteve </string>
+   
+  <string name="device_a5y17lte" translatable="false">Galaxy A5 2017</string>
+  <string name="device_a5y17lte_codename" translatable="false">SM-A520F/DS</string>
+  <string name="device_a5y17lte_maintainer" translatable="false">Skorupsi</string>
+   
+  <string name="device_a7y17lte" translatable="false">Galaxy A7 2017</string>
+  <string name="device_a7y17lte_codename" translatable="false">SM-A720F/DS</string>
+  <string name="device_a7y17lte_maintainer" translatable="false">Skorupsi</string>
 
   <string name="device_i9001" translatable="false">Galaxy S Plus</string>
   <string name="device_i9001_codename" translatable="false">GT-I9001</string>
@@ -496,7 +516,7 @@
 
   <string name="device_osprey" translatable="false">Moto G 2015 </string>
   <string name="device_osprey_codename" translatable="false">Osprey</string>
-  <string name="device_osprey_maintainer" translatable="false">Pavan Jadhaw (Arcade)</string>
+  <string name="device_osprey_maintainer" translatable="false">Subins Mani</string>
 
   <string name="device_athene" translatable="false">Moto G4 Plus</string>
   <string name="device_athene_codename" translatable="false">athene</string>
@@ -516,7 +536,7 @@
 
   <string name="device_g3" translatable="false">LG G3 Int</string>
   <string name="device_g3_codename" translatable="false">D855</string>
-  <string name="device_g3_maintainer" translatable="false">Mountaser Halak</string>
+  <string name="device_g3_maintainer" translatable="false">HardStyl3r</string>
 
   <string name="device_g3_can" translatable="false">LG G3 Canada</string>
   <string name="device_g3_can_codename" translatable="false">D852</string>
@@ -524,7 +544,7 @@
 
   <string name="device_att_g3" translatable="false">LG G3 AT&amp;T</string>
   <string name="device_att_g3_codename" translatable="false">D850</string>
-  <string name="device_att_g3_maintainer" translatable="false">oadam11 </string>
+  <string name="device_att_g3_maintainer" translatable="false">Hasan Okarci</string>
 
   <string name="device_g3_kr" translatable="false">LG G3 Korea</string>
   <string name="device_g3_kr_codename" translatable="false">F400</string>
@@ -664,7 +684,7 @@
 
   <string name="device_capricorn" translatable="false">Xiaomi MI 5s</string>
   <string name="device_capricorn_codename" translatable="false">Capricorn</string>
-  <string name="device_capricorn_maintainer" translatable="false">Ali İhsan Hatun (Asderdd)</string>
+  <string name="device_capricorn_maintainer" translatable="false">Egor Ermakov (trololo718)</string>
 
   <string name="device_natrium" translatable="false">Xiaomi MI 5s Plus</string>
   <string name="device_natrium_codename" translatable="false">Natrium</string>
@@ -694,6 +714,10 @@
   <string name="device_mido_codename" translatable="false">mido</string>
   <string name="device_mido_maintainer" translatable="false">Adesh (Adesh15)</string>
       
+  <string name="device_whyred" translatable="false">Xiaomi Redmi Note 5 Pro</string>
+  <string name="device_whyred_codename" translatable="false">whyred</string>
+  <string name="device_whyred_maintainer" translatable="false">Shahan_mik3</string>
+
   <string name="device_tissot" translatable="false">Xiaomi Mi A1</string>
   <string name="device_tissot_codename" translatable="false">Tissot</string>
   <string name="device_tissot_maintainer" translatable="false">Mountaser Halak</string>
@@ -801,6 +825,10 @@
   <string name="device_santoni" translatable="false">Xiaomi Redmi 4X</string>
   <string name="device_santoni_codename" translatable="false">santoni</string>
   <string name="device_santoni_maintainer" translatable="false">Nikesh Kataria</string>
+  
+  <string name="device_rolex" translatable="false">Xiaomi Redmi 4A</string>
+  <string name="device_rolex_codename" translatable="false">rolex</string>
+  <string name="device_rolex_maintainer" translatable="false">Ataberk Özen (MacTavishAO)</string>  
 
   <string name="device_wfxs" translatable="false">WilleyFox Swift</string>
   <string name="device_wfxs_codename" translatable="false">crackling</string>

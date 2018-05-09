@@ -150,6 +150,7 @@
   <!-- Battery bar -->
   <!--RR Configurations Summaries-->
   <!-- QS rows and columns -->
+  <!-- QuickSettings Panel Transparency -->
   <!-- Color Picker -->
   <!-- Sensor block per-package -->
   <!-- Weather - OmniJaws Settings -->
@@ -215,6 +216,7 @@
   <!-- Status bar - Battery saver color -->
   <!-- Fingerprint unlock keystore -->
   <!-- Ambient Music Ticker -->
+  <!-- Ambient display battery percentage -->
   <!-- Scrolling Cache -->
   <!-- QS footer warnings -->
   <!-- [CHAR LIMIT=80]-->
@@ -254,4 +256,12 @@
   <!-- Browser not found -->
   <!-- Seekbar default text -->
   <!-- Notification guts kill app button -->
+  <!-- Smart Pixels -->
+  <!-- QS footer icons -->
+  <!-- Recents Grid -->
+  <!-- Recents Lock Icon -->
+  <!-- Tiles animation style  -->
+  <!-- Running services -->
+  <!-- Force authorize substratum packages -->
+  <!-- Manage applications: show substratum overlays -->
 </resources>

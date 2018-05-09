@@ -426,6 +426,20 @@
             app:type="phone" />
 
         <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_zerofltexx"
+            android:title="@string/device_zerofltexx"
+            app:codename="@string/device_zerofltexx_codename"
+            app:maintainer="@string/device_zerofltexx_maintainer"
+            app:type="phone" />
+
+        <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_zeroltexx"
+            android:title="@string/device_zeroltexx"
+            app:codename="@string/device_zeroltexx_codename"
+            app:maintainer="@string/device_zeroltexx_maintainer"
+            app:type="phone" />
+
+        <com.android.settings.rr.Preferences.DevicePreference
             android:id="@+id/device_dreamlte"
             android:title="@string/device_dreamlte"
             app:codename="@string/device_dreamlte_codename"
@@ -444,6 +458,13 @@
             android:title="@string/device_greatlte"
             app:codename="@string/device_greatlte_codename"
             app:maintainer="@string/device_greatlte_maintainer"
+            app:type="phone" />
+
+        <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_starlte"
+            android:title="@string/device_starlte"
+            app:codename="@string/device_starlte_codename"
+            app:maintainer="@string/device_starlte_maintainer"
             app:type="phone" />
 
         <com.android.settings.rr.Preferences.DevicePreference
@@ -503,6 +524,18 @@
             android:title="@string/device_j5ltexx"
             app:codename="@string/device_j5ltexx_codename"
             app:maintainer="@string/device_j5ltexx_maintainer"
+            app:type="phone" />
+        <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_a5y17lte"
+            android:title="@string/device_a5y17lte"
+            app:codename="@string/device_a5y17lte_codename"
+            app:maintainer="@string/device_a5y17lte_maintainer"
+            app:type="phone" />
+        <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_a7y17lte"
+            android:title="@string/device_a7y17lte"
+            app:codename="@string/device_a7y17lte_codename"
+            app:maintainer="@string/device_a7y17lte_maintainer"
             app:type="phone" />
         <com.android.settings.rr.Preferences.DevicePreference
             android:id="@+id/device_maguro"
@@ -1076,6 +1109,12 @@
             app:maintainer="@string/device_mido_maintainer"
             app:type="phone" />
         <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_whyred"
+            android:title="@string/device_whyred"
+            app:codename="@string/device_whyred_codename"
+            app:maintainer="@string/device_whyred_maintainer"
+            app:type="phone" />
+        <com.android.settings.rr.Preferences.DevicePreference
             android:id="@+id/device_libra"
             android:title="@string/device_libra"
             app:codename="@string/device_libra_codename"
@@ -1111,6 +1150,12 @@
             app:codename="@string/device_santoni_codename"
             app:maintainer="@string/device_santoni_maintainer"
             app:type="phone" />
+        <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_rolex"
+            android:title="@string/device_rolex"
+            app:codename="@string/device_rolex_codename"
+            app:maintainer="@string/device_rolex_maintainer"
+            app:type="phone" />			
         <com.android.settings.rr.Preferences.DevicePreference
             android:id="@+id/device_tissot"
             android:title="@string/device_tissot"

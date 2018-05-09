@@ -19,6 +19,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/rr_ui_title">
+    
+        <PreferenceScreen
+            android:key="rr_tuner"
+            android:title="@string/rr_tuner"
+            android:icon="@drawable/rr_tuner_icon"
+            android:summary="@string/rr_tuner_summary">
+            <intent android:action="com.android.settings.action.TUNER"
+                    android:targetPackage="com.android.systemui"
+                    android:targetClass="com.android.systemui.tuner.TunerActivity"/>
+        </PreferenceScreen>
 
 
         <PreferenceScreen
@@ -83,6 +93,13 @@
             android:summary="@string/rr_theme_summary"
             android:fragment="com.android.settings.rr.ThemeSettings" 
             android:icon="@drawable/rr_sysui_theme_icon" />
+
+        <Preference
+            android:key="smart_pixels"
+            android:title="@string/smart_pixels_title"
+            android:summary="@string/smart_pixels_summary"
+            android:fragment="com.android.settings.rr.fragments.SmartPixels" 
+            android:icon="@drawable/rr_suspend_icon"/>
 
         <Preference
             android:key="expanded_desktop"

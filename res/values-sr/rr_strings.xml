@@ -271,6 +271,7 @@
   <string name="rr_notif_settings_summary">Прилагодите изглед обавештења у панелу обавештења</string>
   <string name="rr_fp_summary">Прилагођавање разних опција везаних за отисак прста</string>
   <!-- QS rows and columns -->
+  <!-- QuickSettings Panel Transparency -->
   <!-- Color Picker -->
   <!-- Sensor block per-package -->
   <!-- Weather - OmniJaws Settings -->
@@ -611,6 +612,7 @@
   <!-- Status bar - Battery saver color -->
   <!-- Fingerprint unlock keystore -->
   <!-- Ambient Music Ticker -->
+  <!-- Ambient display battery percentage -->
   <!-- Scrolling Cache -->
   <string name="pref_scrollingcache_title">Кеш меморија скроловања</string>
   <string name="pref_scrollingcache_summary">Кеш меморија скроловања може побољшати перформансе на уштрп утрошка меморије</string>
@@ -970,4 +972,12 @@
   <!-- Browser not found -->
   <!-- Seekbar default text -->
   <!-- Notification guts kill app button -->
+  <!-- Smart Pixels -->
+  <!-- QS footer icons -->
+  <!-- Recents Grid -->
+  <!-- Recents Lock Icon -->
+  <!-- Tiles animation style  -->
+  <!-- Running services -->
+  <!-- Force authorize substratum packages -->
+  <!-- Manage applications: show substratum overlays -->
 </resources>

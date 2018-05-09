@@ -271,6 +271,7 @@
   <string name="rr_updater_summary">OTA yenilənmələrini və digər bağlantıları yoxlayın</string>
   <string name="rr_notif_settings_summary">Bildiriş panelində bildirişlərinizin görünüşünü xüsusiləşdirin</string>
   <!-- QS rows and columns -->
+  <!-- QuickSettings Panel Transparency -->
   <!-- Color Picker -->
   <!-- Sensor block per-package -->
   <!-- Weather - OmniJaws Settings -->
@@ -578,6 +579,7 @@
   <!-- Status bar - Battery saver color -->
   <!-- Fingerprint unlock keystore -->
   <!-- Ambient Music Ticker -->
+  <!-- Ambient display battery percentage -->
   <!-- Scrolling Cache -->
   <string name="pref_scrollingcache_title">Sürüşdürmə keşi</string>
   <string name="pref_scrollingcache_summary">Sürüşdürmə keşi sürüşmə performansını çox yaddaş istifadəsi bahasına yaxşılaşdıra bilər</string>
@@ -948,4 +950,12 @@
   <!-- Browser not found -->
   <!-- Seekbar default text -->
   <!-- Notification guts kill app button -->
+  <!-- Smart Pixels -->
+  <!-- QS footer icons -->
+  <!-- Recents Grid -->
+  <!-- Recents Lock Icon -->
+  <!-- Tiles animation style  -->
+  <!-- Running services -->
+  <!-- Force authorize substratum packages -->
+  <!-- Manage applications: show substratum overlays -->
 </resources>

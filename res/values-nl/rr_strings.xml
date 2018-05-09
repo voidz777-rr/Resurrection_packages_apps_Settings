@@ -47,6 +47,7 @@
   <string name="battery_style_dotted_circle">Gestippelde cirkel</string>
   <string name="battery_style_big_circle">Grote cirkel</string>
   <string name="battery_style_big_dotted_circle">Grote gestippelde cirkel</string>
+  <string name="battery_style_square">Vierkant</string>
   <string name="battery_style_text">Tekst</string>
   <string name="battery_style_hidden">Verborgen</string>
   <string name="battery_style_category">Batterij stijl</string>
@@ -111,6 +112,10 @@
   <string name="rr_facebook_summary">Facebook community</string>
   <string name="rr_google_plus_title">Google</string>
   <string name="rr_google_plus_summary">Google+ community</string>
+  <string name="rr_pb_title">PitchBlack thema</string>
+  <string name="rr_pb_summary">Officieel substratum thema van Resurrection Remix OS</string>
+  <string name="rr_twitter_title">Twitter</string>
+  <string name="rr_twitter_summary">Twitter-account</string>
   <string name="maintainer_categorie_title">Officiële apparaten</string>
   <string name="title_about">Over</string>
   <string name="dev_categorie_title">Dev label</string>
@@ -279,6 +284,9 @@
   <string name="ticker_disabled">Geen ticker</string>
   <string name="ticker_enabled">Meldingen ticker</string>
   <string name="ticker_media_enabled">Meldingen en muziek ticker</string>
+  <string name="ticker_animation_mode_title">Ticker animatie stijl</string>
+  <string name="ticker_animation_mode_alpha_fade">Vervagen</string>
+  <string name="ticker_animation_mode_scroll">Scrollen</string>
   <!-- Heads up -->
   <string name="heads_up_title">Sta heads-up toe</string>
   <string name="heads_up_summary_enabled">Heads-up meldingen zijn ingeschakeld</string>
@@ -484,6 +492,8 @@
   <string name="qs_rows_landscape_title">Tegel rijen in landschap</string>
   <string name="qs_columns_portrait_title">Tegel kolommen in portret</string>
   <string name="qs_columns_landscape_title">Tegel kolommen in landschap</string>
+  <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">Paneel achtergrond transparantie</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Kleurkiezer</string>
   <string name="press_color_to_apply">Druk op kleur hieronder om toe te passen</string>
@@ -814,6 +824,10 @@
   <string name="pulse_custom_buttons_opacity_title">Smartbar-knoppen transparantie op Pulse</string>
   <string name="pulse_auto_color_title">Automatische Pulse kleur</string>
   <string name="pulse_auto_color_summary">De kleur synchroniseren met albumcover. Overschrijft lavalamp en lijntransparantie.</string>
+  <string name="fling_lavalamp_color_from">Lava lamp start kleur</string>
+  <string name="fling_lavalamp_color_to">Lava lamp eind kleur</string>
+  <string name="pulse_colors_reset_title">Kleuren opnieuw instellen</string>
+  <string name="pulse_colors_reset_message">Weet u zeker dat u de standaardkleuren wilt herstellen?</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Balk breedte</string>
   <string name="pulse_custom_div">Balk afstand</string>
@@ -1118,6 +1132,9 @@
   <string name="force_ambient_for_media_on">Ingeschakeld</string>
   <string name="force_ambient_for_media_on_forced">Ingeschakeld (geforceerd)</string>
   <string name="force_ambient_for_media_on_forced_clean">Ingeschakeld (geforceerd indien mogelijk)</string>
+  <!-- Ambient display battery percentage -->
+  <string name="ambient_battery_percent_title">Batterij-percentage op Ambient Display</string>
+  <string name="ambient_battery_percent_summary">Zet aan om batterij-percentage weer te geven bij dozing</string>
   <!-- Scrolling Cache -->
   <string name="pref_scrollingcache_title">Scroll cache</string>
   <string name="pref_scrollingcache_summary">Scroll cache kan scroll prestaties verbeteren ten koste van geheugen</string>
@@ -1738,4 +1755,12 @@
   <!-- Notification guts kill app button -->
   <string name="notification_guts_kill_app_button_title">Sluit app knop</string>
   <string name="notification_guts_kill_app_button_summary">Toon een geforceerd sluiten knop in het notificatie menu</string>
+  <!-- Smart Pixels -->
+  <!-- QS footer icons -->
+  <!-- Recents Grid -->
+  <!-- Recents Lock Icon -->
+  <!-- Tiles animation style  -->
+  <!-- Running services -->
+  <!-- Force authorize substratum packages -->
+  <!-- Manage applications: show substratum overlays -->
 </resources>
