@@ -487,6 +487,7 @@
   <string name="rr_density_summary">Bildschirmdichte anpassen, um den Bildschirm bis zum max. Limit zu skalieren</string>
   <string name="rr_fonts_summary">Wähle die bevorzugte Schriftgröße</string>
   <string name="stock_recents_category">Standard-Anwendungsverlauf</string>
+  <string name="edge_gestures_summary">Navigieren mit Kantengesten</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_portrait_title">Kachel-Zeilen im Hochformat</string>
   <string name="qs_rows_landscape_title">Kachel-Zeilen im Querformat</string>
@@ -821,6 +822,8 @@
   <string name="pulse_render_mode_solid_lines">Durchgezogene Linien</string>
   <string name="fling_pulse_color">Pulse-Farbe</string>
   <string name="fling_pulse_color_summary">Wird auch als Ersatz für automatische Farbe verwendet</string>
+  <string name="fling_smoothing_enabled_title">Glättung aktivieren</string>
+  <string name="fling_smoothing_enabled_summary">Jeder Balken wird flüssiger animiert</string>
   <string name="eos_fling_lavalamp_title">Farbwechsel aktivieren</string>
   <string name="eos_fling_lavalamp_summary">Pulse wechselt automatisch die Farben</string>
   <string name="pulse_advanced_category">Erweitert</string>
@@ -1761,7 +1764,7 @@
   <string name="screenshot_options_summary">Verschiedene Screenshot Eigenschaften wie Zeit, Verzögerung, Typ etc. anpassen</string>
   <string name="screenshot_delay_title">Screenshot Verzögerung</string>
   <string name="screenshot_edit_app">Screenshot-Editor</string>
-  <string name="screenshot_edit_app_summary">Auswahl der zu öffnenden App, wenn \"Bearbeiten\" in der Benachrichtigung angetippt wird</string>
+  <string name="screenshot_edit_app_summary">Auswahl der zu öffnenden App, wenn \"Bearbeiten\" in der Screenshot-Benachrichtigung angetippt wird</string>
   <string name="screenshot_edit_app_no_editor">Kein Foto-Editor verfügbar</string>
   <!-- Face unlock auto -->
   <string name="face_auto_unlock_title">Entsperren per Gesichtserkennung</string>
@@ -1783,18 +1786,18 @@
   <string name="smart_pixels_on_power_save_title">Bei Energiesparmodus automatisch einschalten</string>
   <string name="smart_pixels_on_power_save_summary">Smart Pixels einschalten wenn Energiesparmodus eingeschaltet ist</string>
   <string name="smart_pixels_percent">Prozentsatz der abzuschaltenden Pixel</string>
-  <string name="smart_pixels_shift">Burn-In verhindern durch Verschieben von Pixeln</string>
+  <string name="smart_pixels_shift">Einbrennen verhindern durch das Verschieben von Pixeln</string>
   <!-- QS footer icons -->
-  <string name="qs_footer_services_title">Icon für laufende Prozesse anzeigen</string>
-  <string name="qs_footer_services_summary">In der Fußzeile der Schnelleinstellungen das Symbol Laufende Dienste anzeigen</string>
-  <string name="qs_footer_settings_title">Symbol für Einstellungen anzeigen</string>
+  <string name="qs_footer_services_title">Zeige das Symbol für laufende Prozesse</string>
+  <string name="qs_footer_services_summary">Zeige das Symbol der laufenden Dienste in der Fußzeile der Schnelleinstellungen</string>
+  <string name="qs_footer_settings_title">Zeige das Symbol für Einstellungen</string>
   <string name="qs_footer_settings_summary">In der Fußzeile der Schnelleinstellungen das Symbol für Einstellungen anzeigen</string>
   <!-- Recents Grid -->
   <string name="recents_grid_title">Darstellung des Anwendungsverlaufs </string>
   <string name="recents_grid_summary">Stelle den Anwendungsverlauf in Blöcken dar </string>
   <!-- Recents Lock Icon -->
   <string name="recents_lock_title">Anwendungsverlauf sperren</string>
-  <string name="recents_lock_summary">Sperrsymbol in der letzten App-Kopfzeile anzeigen</string>
+  <string name="recents_lock_summary">Sperrsymbol in der Anwendungsverlauf-Kopfzeile anzeigen</string>
   <!-- Tiles animation style  -->
   <string name="qs_tiles">Schnelleinstellungs-Kacheln</string>
   <string name="qs_tile_animation_style_title">Animationsstil</string>
@@ -1826,4 +1829,13 @@
   <string name="filter_substratum_apps">Substratum Overlays</string>
   <string name="menu_show_substratum">Overlays anzeigen</string>
   <string name="menu_hide_substratum">Overlays verstecken</string>
+  <!-- Edge gestures -->
+  <string name="edge_gestures_title">Kantengesten</string>
+  <string name="edge_gestures_feedback_duration_title">Haptische Rückmeldedauer</string>
+  <string name="edge_gestures_long_press_delay_title">Verzögerung, bis die lange Pressaktion beginnt</string>
+  <string name="edge_gestures_back_category_title">Zurück Geste</string>
+  <string name="edge_gestures_back_edges_title">Geste zurück auslösen</string>
+  <string name="edge_gestures_landscape_back_edges_title">Geste hinten auf Querformat auslösen</string>
+  <string name="edge_gestures_back_screen_percent_title">Die hintere Geste muss unter diesem Prozentsatz des Bildschirms beginnen</string>
+  <string name="edge_gestures_back_screen_percent_summary">Auslösen unter % des Bildschirms</string>
 </resources>
