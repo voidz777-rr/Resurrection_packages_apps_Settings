@@ -1115,6 +1115,12 @@
             app:maintainer="@string/device_mido_maintainer"
             app:type="phone" />
         <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_vince"
+            android:title="@string/device_vince"
+            app:codename="@string/device_vince_codename"
+            app:maintainer="@string/device_vince_maintainer"
+            app:type="phone" />
+        <com.android.settings.rr.Preferences.DevicePreference
             android:id="@+id/device_whyred"
             android:title="@string/device_whyred"
             app:codename="@string/device_whyred_codename"
@@ -1335,6 +1341,13 @@
             app:codename="@string/device_Z00D_codename"
             app:maintainer="@string/device_Z00D_maintainer"
             app:type="phone" />
+        
+        <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_zenfone3"
+            android:title="@string/device_zenfone3"
+            app:codename="@string/device_zenfone3_codename"
+            app:maintainer="@string/device_zenfone3_maintainer"
+            app:type="phone" />
 
     </PreferenceCategory>
 
@@ -1414,6 +1427,13 @@
             android:title="@string/device_nubia_nx531j"
             app:codename="@string/device_nubia_nx531j_codename"
             app:maintainer="@string/device_nubia_nx531j_maintainer"
+            app:type="phone" />
+
+        <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_nubia_nx511j"
+            android:title="@string/device_nubia_nx511j"
+            app:codename="@string/device_nubia_nx511j_codename"
+            app:maintainer="@string/device_nubia_nx511j_maintainer"
             app:type="phone" />
 
         <com.android.settings.rr.Preferences.DevicePreference

@@ -297,6 +297,10 @@
   <string name="device_fortuna3g" translatable="false">Galaxy Grand Prime</string>
   <string name="device_fortuna3g_codename" translatable="false">SM-G530H</string>
   <string name="device_fortuna3g_maintainer" translatable="false">Hassan Sardar</string>
+   
+  <string name="device_zenfone3" translatable="false">Zenfone 3</string>
+  <string name="device_zenfone3_codename" translatable="false">ZE520KL/ZE552KL</string>
+  <string name="device_zenfone3_maintainer" translatable="false">fosseperme</string> 
 
   <string name="device_fortunave3g" translatable="false">Galaxy Grand Prime</string>
   <string name="device_fortunave3g_codename" translatable="false">SM-G530H</string>
@@ -516,7 +520,7 @@
 
   <string name="device_titan" translatable="false">Moto G 2014</string>
   <string name="device_titan_codename" translatable="false">Titan</string>
-  <string name="device_titan_maintainer" translatable="false">Uvneshkumar</string>
+  <string name="device_titan_maintainer" translatable="false">thedeadfish59</string>
 
   <string name="device_osprey" translatable="false">Moto G 2015 </string>
   <string name="device_osprey_codename" translatable="false">Osprey</string>
@@ -717,7 +721,11 @@
   <string name="device_mido" translatable="false">Xiaomi Redmi Note 4</string>
   <string name="device_mido_codename" translatable="false">mido</string>
   <string name="device_mido_maintainer" translatable="false">Adesh (Adesh15)</string>
-      
+  
+  <string name="device_vince" translatable="false">Xiaomi Redmi 5 Plus/Redmi Note 5</string>
+  <string name="device_vince_codename" translatable="false">vince</string>
+  <string name="device_vince_maintainer" translatable="false">Ruturaj Kadam</string>
+    
   <string name="device_whyred" translatable="false">Xiaomi Redmi Note 5 Pro</string>
   <string name="device_whyred_codename" translatable="false">whyred</string>
   <string name="device_whyred_maintainer" translatable="false">Shahan_mik3</string>
@@ -816,7 +824,7 @@
 
   <string name="device_redmi2" translatable="false">Xiaomi Redmi 2</string>
   <string name="device_redmi2_codename" translatable="false">wt88047</string>
-  <string name="device_redmi2_maintainer" translatable="false">nicknitewolf </string>
+  <string name="device_redmi2_maintainer" translatable="false">karthik km</string>
 
   <string name="device_redmi3" translatable="false">Xiaomi Redmi 3</string>
   <string name="device_redmi3_codename" translatable="false">ido</string>
@@ -937,6 +945,10 @@
   <string name="device_ville" translatable="false">HTC One S</string>
   <string name="device_ville_codename" translatable="false">Ville</string>
   <string name="device_ville_maintainer" translatable="false">Moozon</string>
+
+  <string name="device_nubia_nx511j" translatable="false">Nubia Z9 mini</string>
+  <string name="device_nubia_nx511j_codename" translatable="false">nx511j</string>
+  <string name="device_nubia_nx511j_maintainer" translatable="false">TTTT555</string>
 
   <string name="device_nubia_nx512j" translatable="false">Nubia Z9 Max</string>
   <string name="device_nubia_nx512j_codename" translatable="false">nx512j</string>
