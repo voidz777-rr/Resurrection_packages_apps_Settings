@@ -730,6 +730,13 @@
             app:codename="@string/device_ms013g_codename"
             app:maintainer="@string/device_ms013g_maintainer"
             app:type="phone" />
+        
+        <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_on7xelte"
+            android:title="@string/device_on7xelte"
+            app:codename="@string/device_on7xelte_codename"
+            app:maintainer="@string/device_on7xelte_maintainer"
+            app:type="phone" />
 
     </PreferenceCategory>
 
@@ -1151,12 +1158,6 @@
             app:maintainer="@string/device_land_maintainer"
             app:type="phone" />
         <com.android.settings.rr.Preferences.DevicePreference
-            android:id="@+id/device_piccolo"
-            android:title="@string/device_piccolo"
-            app:codename="@string/device_piccolo_codename"
-            app:maintainer="@string/device_piccolo_maintainer"
-            app:type="phone" />
-        <com.android.settings.rr.Preferences.DevicePreference
             android:id="@+id/device_santoni"
             android:title="@string/device_santoni"
             app:codename="@string/device_santoni_codename"
@@ -1341,7 +1342,14 @@
             app:codename="@string/device_Z00D_codename"
             app:maintainer="@string/device_Z00D_maintainer"
             app:type="phone" />
-        
+
+        <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_X00TD"
+            android:title="@string/device_X00TD"
+            app:codename="@string/device_X00TD_codename"
+            app:maintainer="@string/device_X00TD_maintainer"
+            app:type="phone" />
+
         <com.android.settings.rr.Preferences.DevicePreference
             android:id="@+id/device_zenfone3"
             android:title="@string/device_zenfone3"
@@ -1389,6 +1397,12 @@
             android:title="@string/device_paella"
             app:codename="@string/device_paella_codename"
             app:maintainer="@string/device_paella_maintainer"
+            app:type="phone" />
+        <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_piccolo"
+            android:title="@string/device_piccolo"
+            app:codename="@string/device_piccolo_codename"
+            app:maintainer="@string/device_piccolo_maintainer"
             app:type="phone" />
     </PreferenceCategory>
 
